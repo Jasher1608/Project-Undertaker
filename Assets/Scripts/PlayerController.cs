@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerMovement : MonoBehaviour
+public class PlayerController : MonoBehaviour
 {
     [Header("Movement")]
     public float moveSpeed;
@@ -22,6 +22,9 @@ public class PlayerMovement : MonoBehaviour
     bool grounded;
 
     public Transform orientation;
+
+    [Header("Inventory")]
+    public InventoryObject inventory;
 
     float horizontalInput;
     float verticalInput;
