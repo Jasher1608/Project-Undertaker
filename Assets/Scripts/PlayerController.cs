@@ -23,9 +23,6 @@ public class PlayerController : MonoBehaviour
 
     public Transform orientation;
 
-    [Header("Inventory")]
-    public InventoryObject inventory;
-
     float horizontalInput;
     float verticalInput;
 
