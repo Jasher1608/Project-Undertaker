@@ -45,8 +45,6 @@ public class PlayerController : MonoBehaviour
         air
     }
 
-
-
     // Start is called before the first frame update
     void Start()
     {
